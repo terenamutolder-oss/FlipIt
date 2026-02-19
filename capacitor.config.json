@@ -1,0 +1,14 @@
+{
+  "appId": "com.flipit.app",
+  "appName": "FlipIt",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https"
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 500,
+      "backgroundColor": "#0f172a"
+    }
+  }
+}

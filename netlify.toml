@@ -1,0 +1,10 @@
+# FlipIt – deploy as a static web app (SPA)
+[build]
+  publish = "."
+  command = "echo 'No build step – static site'"
+
+# SPA: serve index.html for all routes so refresh and direct URLs work
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
